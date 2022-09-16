@@ -107,6 +107,30 @@
           },
           "pos_x": 137,
           "pos_y": 89
+        },
+        "7": {
+          "id": 7,
+          "name": "Node1",
+          "data": {
+            "url": "localhost/add",
+            "method": "post"
+          },
+          "class": "Node1",
+          "html": "Node1",
+          "typenode": "vue",
+          "inputs": {},
+          "outputs": {
+            "output_1": {
+              "connections": [
+                {
+                  "node": "5",
+                  "output": "input_1"
+                }
+              ]
+            }
+          },
+          "pos_x": 237,
+          "pos_y": 89
         }
       }
     },
