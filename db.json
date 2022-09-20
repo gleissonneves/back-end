@@ -376,5 +376,95 @@
         }
       }
     }
+  ],
+  "default_flow": [
+    {
+      "id": 1,
+      "name": "Pix Gerado",
+      "data": {
+        "1": {
+          "id": 1,
+          "name": "Pix Gerado",
+          "data": {},
+          "class": "Node1",
+          "html": "<h6>teste<h6>",
+          "typenode": "vue",
+          "inputs": {
+            "input_1": {
+              "connections": []
+            }
+          },
+          "outputs": {},
+          "pos_x": 720,
+          "pos_y": 307
+        }
+      }
+    },
+    {
+      "id": 2,
+      "name": "Boleto Gerado",
+      "data": {
+        "1": {
+          "id": 2,
+          "name": "Boleto Gerado",
+          "data": {},
+          "class": "Node1",
+          "html": "<h6>teste<h6>",
+          "typenode": "vue",
+          "inputs": {
+            "input_1": {
+              "connections": []
+            }
+          },
+          "outputs": {},
+          "pos_x": 720,
+          "pos_y": 307
+        }
+      }
+    },
+    {
+      "id": 3,
+      "name": "Cartão Recusado",
+      "data": {
+        "1": {
+          "id": 3,
+          "name": "Cartão Recusado",
+          "data": {},
+          "class": "Node1",
+          "html": "<h6>teste<h6>",
+          "typenode": "vue",
+          "inputs": {
+            "input_1": {
+              "connections": []
+            }
+          },
+          "outputs": {},
+          "pos_x": 720,
+          "pos_y": 307
+        }
+      }
+    },
+    {
+      "id": 4,
+      "name": "Carrinho Abandonado",
+      "data": {
+        "1": {
+          "id": 4,
+          "name": "Cartão Recusado",
+          "data": {},
+          "class": "Node1",
+          "html": "<h6>teste<h6>",
+          "typenode": "vue",
+          "inputs": {
+            "input_1": {
+              "connections": []
+            }
+          },
+          "outputs": {},
+          "pos_x": 720,
+          "pos_y": 307
+        }
+      }
+    }
   ]
 }
